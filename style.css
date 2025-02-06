@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li {
+    list-style: none
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: black;
+    color: white;
+    gap: 20px;
+    padding: 10px 15px
+}
+.menu img{
+    height: 30px;
+}
+
+.menu li {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.menu li:hover{
+    background-color: red;
+    padding: 4px 8px;
+    transition: .5s;
+}
